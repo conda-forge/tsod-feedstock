@@ -1,13 +1,13 @@
 {% set name = "tsod" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 101289a3798727ae41686b552be8d492581a026373e6a61e6872c16e7706e49c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 14019b934c93b287b05c6ec05a6de1278487533eecd8e66267ca0bb46807dc40
 
 build:
   noarch: python
